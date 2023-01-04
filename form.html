@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada application form</title>
+    <link rel="stylesheet" href="./style.css/style.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="./nav.html">Home</a></li>
+            <li><a href="./form.html">Form</a></li>
+            <li>
+                <a href="./table.html">Table</a>
+                <ul class="dropdown">
+                    <li><a href="./nav.html">Home</a></li>
+                    <li>
+                        <a href="./form.html">Form</a>
+                        <ul class="dropdown">
+                            <li><a href="./nav.html">Home</a></li>
+                            <li>
+                                <a href="./form.html">Form</a>
+                                
+                            </li>
+                            <li><a href="./table.html">Table</a></li>
+                            <li><a href="./audio-video.html">Media</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li><a href="./table.html">Table</a></li>
+                    <li><a href="./audio-video.html">Media</a></li>
+                </ul>
+            </li>
+            <li><a href="./audio-video.html">Media</a></li>
+        </ul>
+    </nav>
+    <h1>Canada application form</h1>
+    <form action="">
+        <label for="Yname"> Your Name:
+            <input type="text" name="Canada" id="Yname" placeholder="Your Name">
+        </label>
+        <label for="Yemail"> Your Email:
+            <input type="email" name="Canada" id="Yemail" placeholder="Your Eamil">
+        </label>
+        <label for="Ypass"> Your Password:
+            <input type="password" name="Canada" id="Ypass" placeholder="Your Password">
+        </label>
+        <label for="Ynum"> Your Number:
+            <input type="number" name="Canada" id="Ynum" placeholder="Your Number" >
+        </label>
+
+        <fieldset>
+            <legend>Which City You want to go for study</legend>
+            <label for="toronto">
+                <input type="radio" name="city" id="toronto"> Toronto
+            </label>
+            <label for="Ontario">
+                <input type="radio" name="city" id="Ontario"> Ontario
+            </label>
+            <label for="Vancouver">
+                <input type="radio" name="city" id="Vancouver"> Vancouver
+            </label>
+            <label for="Montreal">
+                <input type="radio" name="city" id="Montreal"> Montreal
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Your Qualification</legend>
+            <label for="ssc">
+                <input type="radio" name="study" id="ssc"> SSC
+            </label>
+            <label for="hsc">
+                <input type="radio" name="study" id="hsc"> HSC
+            </label>
+            <label for="honers">
+                <input type="radio" name="study" id="honers"> HONERS
+            </label>
+            <label for="masters">
+                <input type="radio" name="study" id="masters"> MASTERS
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Your English Qualification</legend>
+            <label for="ielts">
+                <input type="checkbox" name="english" id="ielts"> IELTS
+            </label>
+            <label for="toffle">
+                <input type="checkbox" name="english" id="toffle"> TOFFLE
+            </label>
+            <label for="duolingo">
+                <input type="checkbox" name="english" id="duolingo"> DUOLINGO
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Extra Information</legend>
+            <label for="extra">
+                <textarea name="info" id="extra" cols="50" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

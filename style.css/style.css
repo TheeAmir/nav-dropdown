@@ -1,0 +1,33 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav > ul{
+    display: flex;
+    
+}
+.nav li{
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.nav li a:hover{
+    background-color: aqua;
+    transition: 0.5s ease;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(160, 100, 255);
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.nav li:hover > .dropdown{
+    display: block;
+}
+
