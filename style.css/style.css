@@ -26,6 +26,7 @@
     background-color: rgb(160, 100, 255);
     padding-left: 20px;
     padding-bottom: 10px;
+    z-index: 100;
 }
 .nav li:hover > .dropdown{
     display: block;
